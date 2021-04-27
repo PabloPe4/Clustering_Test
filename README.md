@@ -6,7 +6,7 @@ This repo holds a Clustering K-Means model written in PySpark.
 
 ### K-MEANS
 
-*italic* In order for the Colab Notebook to work, the JSON file has to be uploaded (i.e. /content/)
+*In order for the Colab Notebook to work, the JSON file has to be uploaded (i.e. /content/)*
 
 
 A JSON file is used to create a DataFrame from which numerical variables are selected to create a vector.
