@@ -1,10 +1,10 @@
 # Clustering_Test
 This repo holds a Clustering model written in PySpark
 
-### Visualization of the clusetrized data\
+### Visualization of the clusetrized data
 <img width="615" alt="Screenshot 2021-04-27 at 10 01 39" src="https://user-images.githubusercontent.com/71548024/116207045-bcf6c800-a73f-11eb-9523-88234d0a5f18.png">
 
-## About the Notebook
+### K-MEANS
 
 A JSON file is used to create a DataFrame from which numerical variables are selected to create a vector.
 
@@ -19,8 +19,6 @@ assembled_data = assemble.transform(df)
 assembled_data.show(5)
 ```
 <img width="697" alt="Screenshot 2021-04-27 at 10 13 30" src="https://user-images.githubusercontent.com/71548024/116208497-478bf700-a741-11eb-8acd-8c45dea646d1.png">
-
-### K-MEANS
 
 
 Once the vector has been created, a K-Means algorithm with squared euclidean distance is used in order to get a silhouette score.
