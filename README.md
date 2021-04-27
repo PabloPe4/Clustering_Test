@@ -62,5 +62,12 @@ In order to have a compact DataFrame that will encompass the original data and t
 
 <img width="1005" alt="Screenshot 2021-04-27 at 10 16 06" src="https://user-images.githubusercontent.com/71548024/116208845-9afe4500-a741-11eb-8b68-6b7027f4d79f.png">
 
+The Pandas DataFrame i sconverted to PySpark Dataframe so that we have the original values clustered.
+
+<img width="804" alt="Screenshot 2021-04-27 at 12 31 14" src="https://user-images.githubusercontent.com/71548024/116227548-90997680-a754-11eb-9cd9-b87af7ef43d8.png">
+
+A temporary view is created so that queries can be performed on the complete table.
+![Screenshot 2021-04-27 at 12 48 55](https://user-images.githubusercontent.com/71548024/116229582-fab31b00-a756-11eb-9291-d0048bd8bf49.png)
+
 The final merged DataFrame is exported as JSON file so that other operations may be performed in the same format.
 
